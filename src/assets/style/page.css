@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@700&display=swap");
 body {
-  background-image: url(../img/bgbimbo.png);
+  background-image: url(/public/img/bgbimbo.png);
   background-size: 200px;
 }
 body #root {
@@ -92,4 +92,4 @@ body #root .front-img .logo {
 .main_page .footer_page {
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
-}/*# sourceMappingURL=Page.css.map */
+}/*# sourceMappingURL=page.css.map */
