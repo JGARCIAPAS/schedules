@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+table {
+  margin: 0 auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+table td {
+  padding: 0px;
+  text-align: center;
+}
+@media screen and (max-width: 438px) {
+  table td {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 462px) {
+  table td {
+    padding: 5px 10px;
+  }
+}
+@media screen and (min-width: 550px) {
+  table td {
+    padding: 5px 20px;
+  }
+}
+@media screen and (min-width: 744px) {
+  table td {
+    padding: 10px 40px;
+  }
+}
+table tr:nth-child(even) {
+  background: #fff;
+}
+table tr:nth-child(odd) {
+  background: #e6e6e6;
+}
+table tr:hover {
+  background-color: rgb(124, 124, 124);
+}
+table tr th {
+  background-color: rgb(68, 68, 68);
+  color: #fff;
+  padding: 10px;
+}
+table tr th:first-child {
+  background-color: #fff;
+}
+
+.mañana {
+  background-color: #00B0F0;
+  color: black;
+  text-transform: capitalize;
+}
+
+.tarde {
+  background-color: #FFC000;
+  color: black;
+  text-transform: capitalize;
+}
+
+.noche {
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+}
+
+.libre {
+  background-color: #00B050;
+  color: black;
+  text-transform: capitalize;
+}/*# sourceMappingURL=table.css.map */

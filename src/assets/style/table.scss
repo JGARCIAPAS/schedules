@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import './resposive';
+
+table{
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+    td {
+        padding: 0px;
+        text-align: center;
+        @include phone{
+            padding: 0px;
+        }
+        @include phablet{
+            padding: 5px 10px;
+        }
+        @include tablet{
+            padding: 5px 20px;
+        }
+        @include desktop{
+            padding: 10px 40px;
+        }
+    }
+    tr:nth-child(even) {
+        background: #fff;
+    }
+    tr:nth-child(odd) {
+        background: #e6e6e6;
+    }
+    tr:hover {
+        background-color: rgb(124, 124, 124);
+    }
+    tr{
+        th{
+            background-color:rgb(68, 68, 68);
+            color: #fff;
+            padding: 10px;
+        }
+        th:first-child{
+            background-color:#fff;
+        }
+    }    
+}
+.mañana{
+    background-color:#00B0F0;
+    color:black;
+    text-transform: capitalize;
+}
+.tarde{
+    background-color:#FFC000;
+    color:black;
+    text-transform: capitalize;
+}
+.noche{
+    background-color:black;
+    color:white;
+    text-transform: capitalize;
+}
+.libre{
+    background-color:#00B050;
+    color:black;
+    text-transform: capitalize;
+}
