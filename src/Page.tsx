@@ -40,7 +40,7 @@ const Page = () => {
 return (
   <>
     <div className='front-img'>
-      <img src='./src/assets/img/logo_hr.svg' className="logo" alt="logo horarios" />
+      <img src='../docs/assets/logo_hr.svg' className="logo" alt="logo horarios" />
     </div>
     <div className='main_page'>
         <div className='head_page'>
