@@ -11,8 +11,8 @@ Además se ha implementado un diseño propio, aunque cualquier parecido con los 
 
 ## Screenshots
 
-![App Screenshot](https://jgarciapas.github.io/pokedex/img/screenshots/02.png)
-![App Screenshot](https://jgarciapas.github.io/pokedex/img/screenshots/01.png)
+![App Screenshot](https://jgarciapas.github.io/schedules/img/screenshots/02.png)
+![App Screenshot](https://jgarciapas.github.io/schedules/img/screenshots/01.png)
 
 ## Tech Stack
 
